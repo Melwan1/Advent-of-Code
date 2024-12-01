@@ -34,5 +34,6 @@ int main(void) {
         total_paper_sqft += get_paper_size(line);
     }
     printf("Total paper: %d sqft.", total_paper_sqft); 
+    fclose(file);
     return 0;
 }

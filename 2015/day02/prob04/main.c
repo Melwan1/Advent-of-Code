@@ -43,5 +43,6 @@ int main(void) {
         total_ribbon_size += get_ribbon_wrapper_size(line);
     }
     printf("Total ribbon size: %d\n.", total_ribbon_size); 
+    fclose(file);
     return 0;
 }
